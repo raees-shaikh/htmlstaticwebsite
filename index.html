@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+      
+    <style>
+        select{
+            width:300px;
+            
+            padding:6px;
+        }
+        img:hover{
+
+            transform: scale(1.1);
+            transition: all 2s;
+        }
+    </style>
+  
+</head>
+<body>
+
+    <script src="js/bootstrap.min.js"></script>
+    <div id="header" style="background:orangered ;padding:5px;margin-left:-5px">
+    <div class="container">
+<div class="row">
+    <div class="col">
+        <nav class="navbar navbar-expand-md sticky-top" style="position: sticky;">
+
+<a href="" class="navbar-brand " style="color:white;font-weight: bold;"><i class="fas fa-home"></i> SqMeters.com</a> 
+<a href="" class="navbar-brand " style="color:white"><i class="fas fa-door-closed"></i> Post Your Flat For Rent</a>
+<button class="navbar-toggler" data-toggle="collapse" data-target="#my">
+    <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="my">
+</div>
+        
+        <form action="" class="form-inline" style="margin-right:0px">
+            <div class="row" style="margin-bottom:-15px;">
+            <div class="col-md-8">
+                <a href="" style="margin-bottom:-5px;padding:5px;border:1px solid white;border-radius: 5px;text-decoration: none;color:white;" id="create"><i class="fas fa-user-plus"></i> CREATE NEW ACCOUNT</a>
+
+            </div>
+            <div class="col-md-4">
+            <button id="bt" class="btn btn-sm" role="button" data-target="#exampleModal" data-toggle="modal" style="background:white;width:95px;margin-bottom:15px"><span class="fas fa-sign-in-alt"></span> login</button>
+       
+  <div class="modal fade" id="exampleModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          This Is Body
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+        </div>
+
+
+
+        </form>
+    </div>
+    </nav>
+</div>
+</div>
+</div>
+</div><br>
+
+<div class="container">
+<div class="row">
+    <div class="col">
+        <select id="flat">
+<option>Select BHK Type</option>
+<option value="rk">1RK</option>
+<option value="1bhk">1BHK</option>
+<option value="2bhk">2BHK</option>
+<option value="3bhk">3BHK</option>
+<option value="4bhk">4BHK</option>
+<option value="5+bhk">4+BHK</option>
+
+        </select>
+    </div>
+    <div class="col">
+
+        <select id="fb">
+            <option>Family/Bachlor (All)</option>
+            <option value="family">Only Family</option>
+            <option value="bachlor">Only Bachlor</option>
+          
+            
+                    </select>
+    </div>
+    <div class="col">
+
+        <select id="price">
+            <option>Sort By Recent (Newest First)</option>
+            <option value="low">Sort By Rent (Cheapest First)</option>
+            <option value="high">Sort By Area (Largest First</option>
+           
+            
+                    </select>
+    </div>
+</div>
+<a href="#" style="color:red;font-weight:bold;margin-left:87%">Reset Filters</a><br><br>
+<h5>Find Flats On Rent In <span style="color:red">Pune</span></h5>
+<hr>
+<div class="row " id="first">
+    <div class="col-4">
+        <img src="images/pic1.jpg" class="img-fluid img-thumbnail" alt="" style="width:98%;height:190px">
+    </div>
+    <div class="col-8">
+        <div class="row">
+            <div class="col-4"><h5><i class="fas fa-rupee-sign"></i> 12,000 | 30,000</h5>
+            <h6>2BHK In Mantra Essence</h6>
+        <small>Undri Pune</small><br>
+    <small>949 sq.ft</small></div>
+            <div class="col-4"><br><br><br><br>
+               <h6>|         &nbsp;&nbsp;Semi Furnished</h6></div>
+            
+            <div class="col-4">
+                <br><br><br><br>
+                <h6>|            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;    Family / Bachlor</h6></div><hr>
+                <div class="col-12" ><small>Owner</small><br><h6 style="display:inline-block">Shakeel Khan</h6><a href="images/pic1.jpg"  target="_parent" class="btn btn-secondary " style="width:100px;margin-left:65%"><i class="far fa-eye"></i> View</a></div>
+            </div></div>
+        </div><br>
+        <div class="row" id="two">
+            <div class="col-4">
+                <img src="images/pic2.jpg" class="img-fluid img-thumbnail" alt="" style="width:98%;height:190px">
+            </div>
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-4"><h5><i class="fas fa-rupee-sign"></i> 13,500 | 40,000</h5>
+                    <h6>2BHK In Kiran Sankalp</h6>
+                <small>502 vista valley road,sus gaon pune</small><br>
+            <small>670 sq.ft</small></div>
+                    <div class="col-4"><br><br><br><br>
+                       <h6>|         &nbsp;&nbsp;Non Furnished</h6></div>
+                    
+                    <div class="col-4">
+                        <br><br><br><br>
+                        <h6>|            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;    Family / Bachlor</h6></div><hr>
+                        <div class="col-12" ><small>Owner</small><br><h6 style="display:inline-block">Sandip</h6><button class="btn btn-secondary" style="width:100px;margin-left:72%"><i class="far fa-eye"></i> View</button></div>
+                    </div><br>
+    </div>
+    
+    <div class="row " id="three" >
+        <div class="col-4">
+            <img src="images/pic3.jpeg" class="img-fluid img-thumbnail" alt="" style="width:100%;height:190px">
+        </div>
+        <div class="col-8">
+            <div class="row">
+                <div class="col-4"><h5><i class="fas fa-rupee-sign"></i> 20,000 | 50,000</h5>
+                <h6>Fully-Furnished 2BHK in Anand nagar</h6>
+            <small>Near Fire station anand nagar sinhgad road</small><br>
+        <small>950 sq.ft</small></div>
+                <div class="col-4"><br><br><br><br>
+                   <h6>|         &nbsp;&nbsp;Fully Furnished</h6></div>
+                
+                <div class="col-4">
+                    <br><br><br><br>
+                    <h6>|            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;    Only  Bachlor</h6></div><hr>
+                    <div class="col-12" ><small>Owner</small><br><h6 style="display:inline-block">Rishi Kodhwade</h6><button class="btn btn-secondary" style="width:100px;margin-left:82%"><i class="far fa-eye"></i> View</button></div>
+                </div></div>
+            </div>
+            <div class="row" id="four">
+                <div class="col-4">
+                    <img src="images/pic4.jpg" class="img-fluid img-thumbnail" alt="" style="width:100%;height:190px">
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-4"><h5><i class="fas fa-rupee-sign"></i> 18,000 | 50,000</h5>
+                        <h6>
+                           2BHK in Shantiniketan society</h6>
+                    <small>Hadapsar</small><br>
+                <small>1000 sq.ft</small></div>
+                        <div class="col-4"><br><br><br><br>
+                           <h6>|         &nbsp;&nbsp;Semi Furnished</h6></div>
+                        
+                        <div class="col-4">
+                            <br><br><br><br>
+                            <h6>|            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  Only  Family</h6></div><hr>
+                            <div class="col-12" ><small>Owner</small><br><h6 style="display:inline-block">Pradip</h6><button class="btn btn-secondary" style="width:100px;margin-left:82%"><i class="far fa-eye"></i> View</button></div>
+                        </div>
+                        
+        </div>
+    
+
+
+        <br><br><br>
+        <div class="row" id="five">
+            <div class="col-4">
+                <img src="images/pic5.jpg" class="img-fluid img-thumbnail" alt="" style="width:100%;height:190px">
+            </div>
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-4"><h5><i class="fas fa-rupee-sign"></i> 5,000 | 10,000</h5>
+                    <h6>2BHK In Rohan Ishan</h6>
+                <small>Siddharth Nagar, Bavdhan</small><br>
+            <small>1350 sq.ft</small></div>
+                    <div class="col-4"><br><br><br><br>
+                       <h6>|         &nbsp;&nbsp;Semi Furnished</h6></div>
+                    
+                    <div class="col-4">
+                        <br><br><br><br>
+                        <h6>|            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;    Only  Bachlor</h6></div><hr>
+                        <div class="col-12" ><small>Owner</small><br><h6 style="display:inline-block">Sky</h6><button class="btn btn-secondary" style="width:100px;margin-left:82%"><i class="far fa-eye"></i> View</button></div>
+                    </div></div>
+                </div><br></div></div>
+                <div class="row" id="six">
+                    <div class="col-4">
+                        <img src="images/pic7.jpg" class="img-fluid img-thumbnail" alt="" style="width:100%;height:190px">
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="col-4"><h5><i class="fas fa-rupee-sign"></i> 10,500 | 30,000</h5>
+                            <h6>
+                               1BHK In Building</h6>
+                        <small>Vadgaon bk, Jadhavnagar, sinhgad rd, Pune 41</small><br>
+                    <small>670 sq.ft</small></div>
+                            <div class="col-4"><br><br><br><br>
+                               <h6>|         &nbsp;&nbsp;Non Furnished</h6></div>
+                            
+                            <div class="col-4">
+                                <br><br><br><br>
+                                <h6>|            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  Bachlor / Family</h6></div><hr>
+                                <div class="col-12" ><small>Owner</small><br><h6 style="display:inline-block">Sameer Naikwade</h6><button class="btn btn-secondary" style="width:100px;margin-left:62%"><i class="far fa-eye"></i> View</button></div>
+                            </div>
+            </div>
+
+        </div><br>
+        <div class="row " id="seven">
+            <div class="col-4">
+                <img src="images/pic7.jpg" class="img-fluid img-thumbnail" alt="" style="width:100%;height:190px">
+            </div>
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-4"><h5><i class="fas fa-rupee-sign"></i> 11,000 | 30,000</h5>
+                    <h6>
+                       
+Fully-Furnished 1BHK in Salunke Vihar</h6>
+                <small>Near Abubakar Masjid, Salunke vihar, Pune.</small><br>
+            <small>600 sq.ft</small></div>
+                    <div class="col-4"><br><br><br><br>
+                       <h6>|         &nbsp;&nbsp;Fully Furnished</h6></div>
+                    
+                    <div class="col-4">
+                        <br><br><br><br>
+                        <h6>|            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  Only Family</h6></div><hr>
+                        <div class="col-12" ><small>Owner</small><br><h6 style="display:inline-block">Mohammad Tousif</h6><button class="btn btn-secondary" style="width:100px;margin-left:62%"><i class="far fa-eye"></i> View</button></div>
+                    </div>
+    </div>
+</div>
+    <div class="row " id="eight">
+        <div class="col-4">
+            <img src="images/pic8.jpg" class="img-fluid img-thumbnail" alt="" style="width:100%;height:190px">
+        </div>
+        <div class="col-8">
+            <div class="row">
+                <div class="col-4"><h5><i class="fas fa-rupee-sign"></i> 2,000 | 3,000</h5>
+                <h6>
+                   
+ 1Rk in Home</h6>
+            <small>Parvati Darshan, behind mitra mandal colony, Pune- 411009</small><br>
+        <small>450 sq.ft</small></div>
+                <div class="col-4"><br><br><br><br>
+                   <h6>|         &nbsp;&nbsp;Semi Furnished</h6></div>
+                
+                <div class="col-4">
+                    <br><br><br><br>
+                    <h6>|            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  Only Bachlor</h6></div><hr>
+                    <div class="col-12" ><small>Owner</small><br><h6 style="display:inline-block">Javed Tamboli</h6><button class="btn btn-secondary" style="width:100px;margin-left:69%"><i class="far fa-eye"></i> View</button></div>
+                </div>
+</div>
+</div>
+<div class="row " id="nine">
+    <div class="col-4">
+        <img src="images/pic10.png" class="img-fluid img-thumbnail" alt="" style="width:100%;height:190px">
+    </div>
+    <div class="col-8">
+        <div class="row">
+            <div class="col-4"><h5><i class="fas fa-rupee-sign"></i> 80,000 | 1,00000</h5>
+            <h6>
+               
+4BHK High decoratuion Flat</h6>
+        <small>Magarpatta City, Pune- 411009</small><br>
+    <small>450 sq.ft</small></div>
+            <div class="col-4"><br><br><br><br>
+               <h6>|         &nbsp;&nbsp;Fully Furnished</h6></div>
+            
+            <div class="col-4">
+                <br><br><br><br>
+                <h6>|            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  Family / Bachlor</h6></div><hr>
+                <div class="col-12" ><small>Owner</small><br><h6 style="display:inline-block">Farhan Akhtar</h6><button class="btn btn-secondary" style="width:100px;margin-left:70%"><i class="far fa-eye"></i> View</button></div>
+            </div>
+</div>
+
+</div>
+</div></div>
+</div>
+<br><br>
+<div id="header" style="background:orangered ;padding:5px;margin-left:-5px">
+    <div class="container">
+<div class="row">
+    <div class="col text-center">
+        <nav class="navbar navbar-expand-md "> <h6 style="margin-left:30%">SHIFTING & AGREEMENT SERVICE COMING VERY SOON...</h6></nav>
+   </div>
+   </div></div></div>
+   <div style="background:#142533"><br><br>
+   <div class="container">
+   <div class="row"><br><br>
+       <div class="col-6"><i class="fas fa-home" style="font-size:25px;color:white;"></i><span style="font-size: 25px;font-weight: bold;color:white;">SqMeters.com</span>
+<hr style="color:orangered ;height:3px;width: 50px;">
+<p style="color:white">
+    Find flats on rent in Pune very easily!</p>
+    <p style="color:white"><span style="font-weight:bold">Disclaimer : </span>sqmeters.com is just an online platform to search flats on rent in Pune. It just shows you flats that are posted by other customers. It doesn't verify any flat or tenant physically or in any other aspect. Please verify all the details before making any deal, sqmeters is not liable for any loss. Thank You!</p>
+       </div>
+       <div class="col-3"><span style="font-size: 25px;font-weight: bold;color:white;">USEFUL LINKS</span>
+        <hr style="color:orangered ;height:3px;width: 50px;">
+           <i class="fas fa-door-closed" style="color:white"></i><span style="color:white">  Post Your Flat For Rent</span>
+
+       </div>
+       <div class="col-3"><span style="font-size: 25px;font-weight: bold;color:white;">CONTACTS</span>
+        <hr style="color:orangered ;height:3px;width: 50px;">
+        <i class="fas fa-map-marker-alt" style="color:white"></i>&nbsp;&nbsp;&nbsp;&nbsp; <span style="color:white">  Pune, India</span>
+        <br><br>
+        <i class="fas fa-envelope" style="color:white"></i> &nbsp;&nbsp; <span style="color:white">  info@sqmeters.com</span>
+        <br><br>
+        <i class="fas fa-mobile" style="color:white"></i> &nbsp;&nbsp; <span style="color:white">+91 8055511981</span>
+   </div>
+   </div></div>
+   <div style="background-color:#0a131a;padding:10px"><div style="margin-left:40%"><span style="color:white">&copy; </span><span style="color:white">2021 Copyright :</span> <span style="font-weight: bold;color:white">.sqmeters.com</span></div></div></div>
+</div>
+   </div>
+   </div>
+
+   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script>
+      $(document).ready(function(){
+        
+$("#flat").change(function(){
+   var getval= document.getElementById("flat").value;
+
+if( getval.indexOf("2")=="0"){
+    $("#first,#two,#three,#four,#five").show(500);
+$("#six,#seven").hide(500);
+
+return false;
+}
+
+if( getval.indexOf("1")=="0"){
+    
+$("#six,#seven").show(500);
+$("#first,#two,#three,#four,#five").fadeOut(500);
+return false;
+}
+
+if( getval.indexOf("r")=="0"){
+    
+    $("#eight").show(500);
+    $("#first,#two,#three,#four,#five,#six,#seven,#nine").fadeOut(500);
+    return false;
+    }
+
+    if( getval.indexOf("4")=="0"){
+    
+    $("#nine").show(500);
+    $("#first,#two,#three,#four,#five,#six,#seven,#eight").fadeOut(500);
+    return false;
+    }
+
+    if( getval.indexOf("3")=="0"){
+    alert("Sorry 3BHK Flats Not Available");
+    return false;
+    }
+    if( getval.indexOf("5")=="0"){
+    alert("Sorry 4+BHK Flats Not Available");
+    return false;
+    }
+});
+    var ge="";
+    $("#fb").change(function(){
+           var ge= document.getElementById("fb").value;
+        
+        if( ge.indexOf("f")=="0"){
+
+            $("#four, #seven").fadeIn(500);
+            $("#first,#two,#three,#six,#eight,#nine,#five").hide(500);
+      
+        
+        return false;
+        }
+
+    if( ge.indexOf("b")=="0"){
+            $("#three,#five,#eight").slideDown(500);
+            $("#first,#two,,#six,#seven,#nine,#four").hide(500);
+      
+        
+        return false;
+        }
+      });
+      $("#price").change(function(){
+           var rate= document.getElementById("price").value;
+
+           if( rate.indexOf("l")=="0"){
+
+$("#eight,#five").fadeIn(500);
+$("#first,#two,#three,#six,#four,#nine,#seven").hide(500);
+
+
+return false;
+}
+
+if( rate.indexOf("h")=="0"){
+
+$("#nine").show(500);
+
+$("#eight,#five").hide(500);
+
+return false;
+}
+});
+});
+
+  </script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+  
+</body>
+</html>
+    
+    
